@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# EPUB and build artifacts
+*.epub
+
+# Python virtual environments
+venv/
+.env/
+
+# Log files
+*.log
+
+# Backup files
+*~ 

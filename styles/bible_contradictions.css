@@ -1,0 +1,341 @@
+/* Global styles */
+:root {
+    --primary-color: #4a4e69;
+    --secondary-color: #9a8c98;
+    --accent-color: #c9ada7;
+    --text-color: #22223b;
+    --background-color: #f2e9e4;
+    --container-width: 1200px;
+    --heading-font: 'Georgia', serif;
+    --body-font: 'Palatino', 'Palatino Linotype', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-top: 1.2rem;
+    color: var(--secondary-color);
+}
+
+p {
+    margin-bottom: 1.2rem;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Cover page */
+.cover {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+}
+
+.cover-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.cover h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.cover h2 {
+    font-size: 1.8rem;
+    margin: 0.8rem 0;
+}
+
+.cover h3 {
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.5rem;
+}
+
+/* Table of Contents */
+#table-of-contents {
+    margin: 3rem auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.toc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.toc-section {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.toc-section h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.toc-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.toc-section li {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.toc-section a {
+    display: inline-block;
+    padding: 0.2rem 0;
+    transition: transform 0.2s ease;
+}
+
+.toc-section a:hover {
+    transform: translateX(5px);
+}
+
+/* Content sections */
+section {
+    margin-bottom: 3rem;
+}
+
+#introduction p,
+.contradiction p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.content-image {
+    width: 60%;
+    height: auto;
+    margin: 1.5rem auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease;
+}
+
+/* Contradictions and Keys */
+.contradiction, .key {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.contradiction h3, .key h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--accent-color);
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content-image {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .content-image {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .toc-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .content-image {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .contradiction, .key {
+        padding: 1rem;
+    }
+}
+
+/* Stylish table for Key 1 */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 1.05em;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.styled-table caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.15em;
+    color: var(--primary-color);
+    margin-bottom: 0.5em;
+    letter-spacing: 0.5px;
+}
+.styled-table thead tr {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: left;
+}
+.styled-table th, .styled-table td {
+    padding: 0.75em 1em;
+    border-bottom: 1px solid #e0e0e0;
+}
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f9f6f2;
+}
+.styled-table tbody tr:hover {
+    background-color: #f1e6e6;
+}
+.table-note {
+    font-size: 0.98em;
+    color: var(--text-color);
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+.table-note ul li {
+    color: var(--text-color);
+}
+@media (max-width: 600px) {
+    .styled-table th, .styled-table td {
+        padding: 0.5em 0.4em;
+        font-size: 0.95em;
+    }
+    .styled-table caption {
+        font-size: 1em;
+    }
+}
+
+.toc-nav-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+.toc-nav-btn {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding: 0.85em 2.5em;
+  border: none;
+  border-radius: 2em;
+  box-shadow: 0 4px 16px rgba(78,84,200,0.15);
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+  letter-spacing: 0.04em;
+}
+.toc-nav-btn:hover {
+  background: linear-gradient(90deg, #8f94fb 0%, #4e54c8 100%);
+  transform: translateY(-2px) scale(1.04);
+  color: #fff;
+} 

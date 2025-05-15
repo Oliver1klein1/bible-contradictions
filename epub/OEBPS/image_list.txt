@@ -1,0 +1,120 @@
+
+    Directory: C:\Users\Michael\OneDrive\Older Documents\Desktop\bible-contradictions\epub\OEBPS
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          2025/05/13    18:45         193230 100-widow-marry.jpg
+-a---          2025/05/14    21:43         346831 book-cover.jpg
+-a---          2025/05/13    10:36         169141 c001-beersheba.jpg
+-a---          2025/05/13    10:39         146079 c002-jehoiachin-age.jpg
+-a---          2025/05/13    15:36         216172 c003-jesus-david-lineage.jpg
+-a---          2025/05/13    15:37         300981 c004-royal-disqualification.jpg
+-a---          2025/05/13    15:38         274273 c005-father-of-joseph.jpg
+-a---          2025/05/13    15:45         153984 c006-father-of-shelah.jpg
+-a---          2025/05/13    15:46         169346 c007-absalom.jpg
+-a---          2025/05/15    13:10         193403 c008-demoniacs.jpg
+-a---          2025/05/15    13:24         276355 c009-famine.jpg
+-a---          2025/05/13    15:49         179104 c010-flight-to-egypt.jpg
+-a---          2025/05/13    15:49         260504 c011-baptism-wilderness.jpg
+-a---          2025/05/13    15:50         240307 c012-jesus-jerusalem-timeline.jpg
+-a---          2025/05/13    19:51         265478 c013-peter-mother-healing.jpg
+-a---          2025/05/13    15:52         205310 c014-law-of-moses.jpg
+-a---          2025/05/13    19:56         244470 c015-faith-vs-works.jpg
+-a---          2025/05/13    15:54         230604 c016-eternal-life.jpg
+-a---          2025/05/13    19:32         243378 c017-you-fool.jpg
+-a---          2025/05/13    15:55         210189 c018-anger.jpg
+-a---          2025/05/13    15:56         348655 c019-animal-blood.jpg
+-a---          2025/05/13    15:57         332417 c020-signs.jpg
+-a---          2025/05/13    15:58         168773 c021-blind-healing.jpg
+-a---          2025/05/13    15:59         220245 c022-water-from-rock.jpg
+-a---          2025/05/13    16:01         195945 c023-potters-field.jpg
+-a---          2025/05/13    16:01         197324 c024-crucifixion-time.jpg
+-a---          2025/05/13    16:01         176714 c025-jesus-last-words.jpg
+-a---          2025/05/13    16:02         144487 c026-simon-cross.jpg
+-a---          2025/05/13    16:02         289578 c027-sacrifices.jpg
+-a---          2025/05/13    16:02         229965 c028-resurrection01.jpg
+-a---          2025/05/13    16:03         278313 c029-resurrection02.jpg
+-a---          2025/05/13    16:03         156130 c030-resurrection03.jpg
+-a---          2025/05/13    16:03         322055 c031-resurrection04.jpg
+-a---          2025/05/13    16:04         202617 c032-tombstone.jpg
+-a---          2025/05/13    16:04         310755 c033-after-tomb.jpg
+-a---          2025/05/13    16:23         351672 c034-ascension-when.jpg
+-a---          2025/05/13    16:24         403345 c035-ascension-where.jpg
+-a---          2025/05/13    16:24         298609 c036-damascus-story.jpg
+-a---          2025/05/13    20:03         239033 c037-holy-spirit-filled.jpg
+-a---          2025/05/13    16:26         389864 c038-jesus-god01.jpg
+-a---          2025/05/13    19:47         184931 c039-jesus-god02.jpg
+-a---          2025/05/13    16:26         253220 c040-dying-for-another.jpg
+-a---          2025/05/13    16:27         294441 c041-three-days-three-nights.jpg
+-a---          2025/05/13    19:44         192930 c042-witness-myself.jpg
+-a---          2025/05/13    16:27         166696 c043-does-god-lie.jpg
+-a---          2025/05/13    16:32         420585 c044-gods-anger.jpg
+-a---          2025/05/13    16:32         363834 c045-which-came-first01.jpg
+-a---          2025/05/13    16:32         240489 c046-which-came-first02.jpg
+-a---          2025/05/13    16:33         327372 c047-gods-visibility.jpg
+-a---          2025/05/13    16:33         326507 c048-ark-animals.jpg
+-a---          2025/05/13    16:33         384222 c049-languages.jpg
+-a---          2025/05/13    16:33         301240 c050-pharoahs-heart.jpg
+-a---          2025/05/13    16:35         290509 c051-yhwh-name-reveal.jpg
+-a---          2025/05/13    16:35         360413 c052-god-war-or-peace.jpg
+-a---          2025/05/13    16:36         276118 c053-god-and-testing.jpg
+-a---          2025/05/13    16:41         340130 c054-ark-contents.jpg
+-a---          2025/05/13    16:41         296091 c055-images.jpg
+-a---          2025/05/13    16:42         284814 c056-yahweh-mercy.jpg
+-a---          2025/05/13    16:42         160369 c057-god-fear.jpg
+-a---          2025/05/15    19:27         420820 c058-child-punishment01.jpg
+-a---          2025/05/15    19:27         312903 c058-child-punishment02.jpg
+-a---          2025/05/13    19:23         240919 c059-david-census.jpg
+-a---          2025/05/13    16:44         316158 c060-census-results.jpg
+-a---          2025/05/13    16:45         248119 c061-temple-site.jpg
+-a---          2025/05/13    16:52         280409 c062-sauls-death.jpg
+-a---          2025/05/13    16:52         271812 c063-solomon-stable.jpg
+-a---          2025/05/13    16:53         288419 c064-goliath.jpg
+-a---          2025/05/13    18:33         215989 c065-josiah-death.jpg
+-a---          2025/05/15    19:27         251463 c066-royal-line.jpg
+-a---          2025/05/13    18:33         147982 c067-does-god-weary.jpg
+-a---          2025/05/13    18:34         280835 c068-god-unchanging.jpg
+-a---          2025/05/13    18:34          80359 c069-exiles-of-aden.jpg
+-a---          2025/05/13    18:34         331476 c070-jairus-daughter.jpg
+-a---          2025/05/13    18:35         335135 c071-shealtiel-father.jpg
+-a---          2025/05/13    18:35         114336 c072-babylon-to-jesus.jpg
+-a---          2025/05/13    18:36         337314 c073-mary-and-joseph.jpg
+-a---          2025/05/13    18:36         270601 c074-david-to-jesus.jpg
+-a---          2025/05/13    18:36         272595 c075-emmanuel.jpg
+-a---          2025/05/13    18:37         265406 c076-temptation-sequence.jpg
+-a---          2025/05/13    18:37         310139 c077-ministry-start.jpg
+-a---          2025/05/13    18:37         308394 c078-voice-speaking.jpg
+-a---          2025/05/15    19:27         294385 c079-peter-mission.jpg
+-a---          2025/05/13    18:38         283708 c080-miracle-sequence.jpg
+-a---          2025/05/13    18:38         303521 c081-fig-tree-response.jpg
+-a---          2025/05/13    18:39         231052 c082-trinity.jpg
+-a---          2025/05/13    18:39         266377 c083-planning.jpg
+-a---          2025/05/13    18:39         381467 c084-peter-denials.jpg
+-a---          2025/05/13    18:40         187940 c085-crucifixion-robe.jpg
+-a---          2025/05/13    18:40         235835 c086-centurion-at-crucifixion.jpg
+-a---          2025/05/13    18:40         223776 c087-women-at-cross.jpg
+-a---          2025/05/15    01:06         326406 c088-tombstone02.jpg
+-a---          2025/05/13    18:42         246988 c089-earthquake.jpg
+-a---          2025/05/13    19:08         214215 c090-doubting.jpg
+-a---          2025/05/13    19:16         185792 c091-spice-timing.jpg
+-a---          2025/05/13    19:20         164336 c092-temple-cleansing.jpg
+-a---          2025/05/13    18:43         247066 c093-knows-future.jpg
+-a---          2025/05/13    18:43         284563 c094-who-judges.jpg
+-a---          2025/05/13    18:43         186003 c095-paul-lying.jpg
+-a---          2025/05/13    18:44         213982 c096-paul-trickery.jpg
+-a---          2025/05/15    14:18         215040 c097-paul-apostleship.jpg
+-a---          2025/05/13    19:00         211952 c098-pleasing-people.jpg
+-a---          2025/05/13    18:53         247337 c099-powers-that-be.jpg
+-a---          2025/05/15    01:26         179707 c100-widow-marry.jpg
+-a---          2025/05/13    21:20         233846 c101-last-supper.jpg
+-a---          2025/05/14    13:42         364133 introduction-jigsaw.jpg
+-a---          2025/05/13    22:26         174574 virgin-births.jpg
+
+
+    Directory: C:\Users\Michael\OneDrive\Older Documents\Desktop\bible-contradictions\epub\OEBPS
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          2025/05/15    14:14        1953105 apostle.png
+-a---          2025/05/13    10:35        2386929 book-cover.png
+

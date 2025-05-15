@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="BookId">urn:uuid:101-illustrated-bible-contradictions</dc:identifier>
+    <dc:title>101 Illustrated Bible Contradictions: And 12 Keys To Unlock The Truths These Reveal</dc:title>
+    <dc:creator>Ansilo Boff</dc:creator>
+    <dc:language>en</dc:language>
+    <meta property="dcterms:modified">2025-05-15T19:30:00Z</meta>
+  </metadata>
+  <manifest>
+    <item id="html" href="index.html" media-type="application/xhtml+xml"/>
+    <item id="css" href="bible_contradictions.css" media-type="text/css"/>
+    <item id="cover" href="book-cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="apostle" href="apostle.png" media-type="image/png"/>
+    <item id="introjigsaw" href="introduction-jigsaw.jpg" media-type="image/jpeg"/>
+    <item id="virginbirths" href="virgin-births.jpg" media-type="image/jpeg"/>
+    <!-- Add all other images -->
+    <item id="c001" href="c001-beersheba.jpg" media-type="image/jpeg"/>
+    <item id="c002" href="c002-jehoiachin-age.jpg" media-type="image/jpeg"/>
+    <item id="c003" href="c003-jesus-david-lineage.jpg" media-type="image/jpeg"/>
+    <item id="c004" href="c004-royal-disqualification.jpg" media-type="image/jpeg"/>
+    <item id="c005" href="c005-father-of-joseph.jpg" media-type="image/jpeg"/>
+    <item id="c006" href="c006-father-of-shelah.jpg" media-type="image/jpeg"/>
+    <item id="c007" href="c007-absalom.jpg" media-type="image/jpeg"/>
+    <item id="c008" href="c008-demoniacs.jpg" media-type="image/jpeg"/>
+    <item id="c009" href="c009-famine.jpg" media-type="image/jpeg"/>
+    <item id="c010" href="c010-flight-to-egypt.jpg" media-type="image/jpeg"/>
+    <item id="c011" href="c011-baptism-wilderness.jpg" media-type="image/jpeg"/>
+    <item id="c012" href="c012-jesus-jerusalem-timeline.jpg" media-type="image/jpeg"/>
+    <item id="c013" href="c013-peter-mother-healing.jpg" media-type="image/jpeg"/>
+    <item id="c014" href="c014-law-of-moses.jpg" media-type="image/jpeg"/>
+    <item id="c015" href="c015-faith-vs-works.jpg" media-type="image/jpeg"/>
+    <item id="c016" href="c016-eternal-life.jpg" media-type="image/jpeg"/>
+    <item id="c017" href="c017-you-fool.jpg" media-type="image/jpeg"/>
+    <item id="c018" href="c018-anger.jpg" media-type="image/jpeg"/>
+    <item id="c019" href="c019-animal-blood.jpg" media-type="image/jpeg"/>
+    <item id="c020" href="c020-signs.jpg" media-type="image/jpeg"/>
+    <item id="c021" href="c021-blind-healing.jpg" media-type="image/jpeg"/>
+    <item id="c022" href="c022-water-from-rock.jpg" media-type="image/jpeg"/>
+    <item id="c023" href="c023-potters-field.jpg" media-type="image/jpeg"/>
+    <item id="c024" href="c024-crucifixion-time.jpg" media-type="image/jpeg"/>
+    <item id="c025" href="c025-jesus-last-words.jpg" media-type="image/jpeg"/>
+    <item id="c026" href="c026-simon-cross.jpg" media-type="image/jpeg"/>
+    <item id="c027" href="c027-sacrifices.jpg" media-type="image/jpeg"/>
+    <item id="c028" href="c028-resurrection01.jpg" media-type="image/jpeg"/>
+    <item id="c029" href="c029-resurrection02.jpg" media-type="image/jpeg"/>
+    <item id="c030" href="c030-resurrection03.jpg" media-type="image/jpeg"/>
+    <item id="c031" href="c031-resurrection04.jpg" media-type="image/jpeg"/>
+    <item id="c032" href="c032-tombstone.jpg" media-type="image/jpeg"/>
+    <item id="c033" href="c033-after-tomb.jpg" media-type="image/jpeg"/>
+    <item id="c034" href="c034-ascension-when.jpg" media-type="image/jpeg"/>
+    <item id="c035" href="c035-ascension-where.jpg" media-type="image/jpeg"/>
+    <item id="c036" href="c036-damascus-story.jpg" media-type="image/jpeg"/>
+    <item id="c037" href="c037-holy-spirit-filled.jpg" media-type="image/jpeg"/>
+    <item id="c038" href="c038-jesus-god01.jpg" media-type="image/jpeg"/>
+    <item id="c039" href="c039-jesus-god02.jpg" media-type="image/jpeg"/>
+    <item id="c040" href="c040-dying-for-another.jpg" media-type="image/jpeg"/>
+    <item id="c041" href="c041-three-days-three-nights.jpg" media-type="image/jpeg"/>
+    <item id="c042" href="c042-witness-myself.jpg" media-type="image/jpeg"/>
+    <item id="c043" href="c043-does-god-lie.jpg" media-type="image/jpeg"/>
+    <item id="c044" href="c044-gods-anger.jpg" media-type="image/jpeg"/>
+    <item id="c045" href="c045-which-came-first01.jpg" media-type="image/jpeg"/>
+    <item id="c046" href="c046-which-came-first02.jpg" media-type="image/jpeg"/>
+    <item id="c047" href="c047-gods-visibility.jpg" media-type="image/jpeg"/>
+    <item id="c048" href="c048-ark-animals.jpg" media-type="image/jpeg"/>
+    <item id="c049" href="c049-languages.jpg" media-type="image/jpeg"/>
+    <item id="c050" href="c050-pharoahs-heart.jpg" media-type="image/jpeg"/>
+    <item id="c051" href="c051-yhwh-name-reveal.jpg" media-type="image/jpeg"/>
+    <item id="c052" href="c052-god-war-or-peace.jpg" media-type="image/jpeg"/>
+    <item id="c053" href="c053-god-and-testing.jpg" media-type="image/jpeg"/>
+    <item id="c054" href="c054-ark-contents.jpg" media-type="image/jpeg"/>
+    <item id="c055" href="c055-images.jpg" media-type="image/jpeg"/>
+    <item id="c056" href="c056-yahweh-mercy.jpg" media-type="image/jpeg"/>
+    <item id="c057" href="c057-god-fear.jpg" media-type="image/jpeg"/>
+    <item id="c058a" href="c058-child-punishment01.jpg" media-type="image/jpeg"/>
+    <item id="c058b" href="c058-child-punishment02.jpg" media-type="image/jpeg"/>
+    <item id="c059" href="c059-david-census.jpg" media-type="image/jpeg"/>
+    <item id="c060" href="c060-census-results.jpg" media-type="image/jpeg"/>
+    <item id="c061" href="c061-temple-site.jpg" media-type="image/jpeg"/>
+    <item id="c062" href="c062-sauls-death.jpg" media-type="image/jpeg"/>
+    <item id="c063" href="c063-solomon-stable.jpg" media-type="image/jpeg"/>
+    <item id="c064" href="c064-goliath.jpg" media-type="image/jpeg"/>
+    <item id="c065" href="c065-josiah-death.jpg" media-type="image/jpeg"/>
+    <item id="c066" href="c066-royal-line.jpg" media-type="image/jpeg"/>
+    <item id="c067" href="c067-does-god-weary.jpg" media-type="image/jpeg"/>
+    <item id="c068" href="c068-god-unchanging.jpg" media-type="image/jpeg"/>
+    <item id="c069" href="c069-exiles-of-aden.jpg" media-type="image/jpeg"/>
+    <item id="c070" href="c070-jairus-daughter.jpg" media-type="image/jpeg"/>
+    <item id="c071" href="c071-shealtiel-father.jpg" media-type="image/jpeg"/>
+    <item id="c072" href="c072-babylon-to-jesus.jpg" media-type="image/jpeg"/>
+    <item id="c073" href="c073-mary-and-joseph.jpg" media-type="image/jpeg"/>
+    <item id="c074" href="c074-david-to-jesus.jpg" media-type="image/jpeg"/>
+    <item id="c075" href="c075-emmanuel.jpg" media-type="image/jpeg"/>
+    <item id="c076" href="c076-temptation-sequence.jpg" media-type="image/jpeg"/>
+    <item id="c077" href="c077-ministry-start.jpg" media-type="image/jpeg"/>
+    <item id="c078" href="c078-voice-speaking.jpg" media-type="image/jpeg"/>
+    <item id="c079" href="c079-peter-mission.jpg" media-type="image/jpeg"/>
+    <item id="c080" href="c080-miracle-sequence.jpg" media-type="image/jpeg"/>
+    <item id="c081" href="c081-fig-tree-response.jpg" media-type="image/jpeg"/>
+    <item id="c082" href="c082-trinity.jpg" media-type="image/jpeg"/>
+    <item id="c083" href="c083-planning.jpg" media-type="image/jpeg"/>
+    <item id="c084" href="c084-peter-denials.jpg" media-type="image/jpeg"/>
+    <item id="c085" href="c085-crucifixion-robe.jpg" media-type="image/jpeg"/>
+    <item id="c086" href="c086-centurion-at-crucifixion.jpg" media-type="image/jpeg"/>
+    <item id="c087" href="c087-women-at-cross.jpg" media-type="image/jpeg"/>
+    <item id="c088" href="c088-tombstone02.jpg" media-type="image/jpeg"/>
+    <item id="c089" href="c089-earthquake.jpg" media-type="image/jpeg"/>
+    <item id="c090" href="c090-doubting.jpg" media-type="image/jpeg"/>
+    <item id="c091" href="c091-spice-timing.jpg" media-type="image/jpeg"/>
+    <item id="c092" href="c092-temple-cleansing.jpg" media-type="image/jpeg"/>
+    <item id="c093" href="c093-knows-future.jpg" media-type="image/jpeg"/>
+    <item id="c094" href="c094-who-judges.jpg" media-type="image/jpeg"/>
+    <item id="c095" href="c095-paul-lying.jpg" media-type="image/jpeg"/>
+    <item id="c096" href="c096-paul-trickery.jpg" media-type="image/jpeg"/>
+    <item id="c097" href="c097-paul-apostleship.jpg" media-type="image/jpeg"/>
+    <item id="c098" href="c098-pleasing-people.jpg" media-type="image/jpeg"/>
+    <item id="c099" href="c099-powers-that-be.jpg" media-type="image/jpeg"/>
+    <item id="c100" href="c100-widow-marry.jpg" media-type="image/jpeg"/>
+    <item id="c101" href="c101-last-supper.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine>
+    <itemref idref="html"/>
+  </spine>
+</package> 

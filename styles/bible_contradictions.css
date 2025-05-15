@@ -84,9 +84,10 @@ a:hover {
 }
 
 .cover-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 1.5em auto;
 }
 
 .cover h1 {
@@ -159,14 +160,17 @@ section {
     text-justify: inter-word;
 }
 
-.content-image {
-    width: 60%;
-    height: auto;
-    margin: 1.5rem auto;
+/* Elegant shadow and rounded corners for content images */
+.content-image,
+article img {
     display: block;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: width 0.3s ease;
+    margin: 1.5em auto;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 6px 24px rgba(44, 50, 80, 0.13), 0 1.5px 6px rgba(44, 50, 80, 0.08);
+    border-radius: 10px;
+    background: #fff;
 }
 
 /* Contradictions and Keys */
@@ -338,4 +342,12 @@ footer {
   background: linear-gradient(90deg, #8f94fb 0%, #4e54c8 100%);
   transform: translateY(-2px) scale(1.04);
   color: #fff;
+}
+
+/* For small tablets and mobile devices */
+@media (max-width: 900px) {
+    .content-image,
+    article img {
+        width: 70%;
+    }
 } 

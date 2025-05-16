@@ -43,7 +43,7 @@ TOC_A_STYLE = 'color: #4a4e69; text-decoration: none; font-weight: normal; font-
 
 # Inline style for main container (soft cream background, Georgia font, larger size)
 CONTAINER_STYLE = (
-    'max-width: 900px; margin: 0 auto; padding: 2em; background: #f2e9e4; '
+    'max-width: 900px; margin: 0 auto; padding: 2em; background: #fcfbf7; '
     'box-shadow: 0 0 20px #0001; border-radius: 18px; font-family: Georgia, \'Times New Roman\', Times, serif; font-size: 1.15em;'
 )
 
@@ -195,6 +195,12 @@ for article in soup.find_all('article'):
             wrapper['style'] = NAV_BTN_WRAPPER_STYLE
             a.insert_before(wrapper)
             wrapper.append(a.extract())
+
+# Add class='contradiction' to all contradiction articles
+for article in soup.find_all('article'):
+    article_id = article.get('id', '')
+    if article_id.startswith('contradiction'):
+        article['class'] = (article.get('class', []) + ['contradiction'])
 
 # Justify paragraphs in contradiction and key articles
 for article in soup.find_all('article'):

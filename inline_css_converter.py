@@ -76,6 +76,67 @@ NAV_BTN_WRAPPER_STYLE = 'width: 100%; display: flex; justify-content: center;'
 # Justified paragraph style for contradiction, key, and introduction
 JUSTIFY_P_STYLE = 'text-align: justify; text-justify: inter-word;'
 
+# Insert media-specific CSS for page breaks
+MEDIA_CSS = '''<style>
+@media print {
+  .cover {
+    page-break-after: always;
+    break-after: page;
+  }
+  .copyright,
+  #table-of-contents,
+  #introduction,
+  #part-one,
+  #part-two,
+  #conclusion,
+  .key,
+  article {
+    page-break-before: always;
+    break-before: page;
+  }
+  .cover:first-of-type,
+  .copyright:first-of-type,
+  #table-of-contents:first-of-type,
+  #introduction:first-of-type,
+  #part-one:first-of-type,
+  #part-two:first-of-type,
+  #conclusion:first-of-type,
+  .key:first-of-type,
+  article:first-of-type {
+    page-break-before: auto;
+    break-before: auto;
+  }
+  .nav-btn-wrapper,
+  .toc-nav-btn-wrapper {
+    display: none !important;
+  }
+  footer a[href="#top"] {
+    display: none !important;
+  }
+}
+@media screen {
+  .cover,
+  .copyright,
+  #table-of-contents,
+  #introduction,
+  #part-one,
+  #part-two,
+  #conclusion,
+  .key,
+  article {
+    page-break-before: auto;
+    break-before: auto;
+  }
+}
+@page {
+  @bottom-center {
+    content: counter(page);
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+</style>'''
+
 # Read the HTML
 with open(INPUT_FILE, 'r', encoding='utf-8') as f:
     soup = BeautifulSoup(f, 'html.parser')
@@ -221,6 +282,11 @@ if intro_section:
         style = re.sub(r'text-align\s*:\s*[^;]+;?', '', style)
         style = re.sub(r'text-justify\s*:\s*[^;]+;?', '', style)
         p['style'] = (style + ' ' + JUSTIFY_P_STYLE).strip()
+
+# After parsing HTML, insert the style block in <head>
+head = soup.find('head')
+if head:
+    head.append(BeautifulSoup(MEDIA_CSS, 'html.parser'))
 
 # Write the output
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:

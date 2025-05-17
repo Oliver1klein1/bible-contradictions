@@ -43,7 +43,7 @@ TOC_A_STYLE = 'color: #4a4e69; text-decoration: none; font-weight: normal; font-
 
 # Inline style for main container (soft cream background, Georgia font, larger size)
 CONTAINER_STYLE = (
-    'max-width: 900px; margin: 0 auto; padding: 2em; background: #fcfbf7; '
+    'max-width: 900px; margin: 0 auto; padding: 2em; padding-top: 2.5em; background: #fcfbf7; '
     'box-shadow: 0 0 20px #0001; border-radius: 18px; font-family: Georgia, \'Times New Roman\', Times, serif; font-size: 1.15em;'
 )
 
@@ -127,6 +127,18 @@ MEDIA_CSS = '''<style>
     page-break-before: auto;
     break-before: auto;
   }
+}
+.container > *:first-child {
+  margin-top: 2.5em;
+}
+h3 {
+  padding-top: 2em;
+}
+article h3 {
+  padding-top: 2.5em;
+}
+#introduction h2 {
+  padding-top: 2.5em;
 }
 @page {
   @bottom-center {
@@ -231,8 +243,6 @@ for article in soup.find_all('article', class_='contradiction'):
         h3['style'] = CONTRADICTION_H3_STYLE
         if 'class' in h3.attrs:
             del h3['class']
-    if 'class' in article.attrs:
-        del article['class']
 
 # Prominent introduction heading
 intro_section = soup.find(id='introduction')
@@ -257,22 +267,17 @@ for article in soup.find_all('article'):
             a.insert_before(wrapper)
             wrapper.append(a.extract())
 
-# Add class='contradiction' to all contradiction articles
-for article in soup.find_all('article'):
-    article_id = article.get('id', '')
-    if article_id.startswith('contradiction'):
-        article['class'] = (article.get('class', []) + ['contradiction'])
-
 # Justify paragraphs in contradiction and key articles
 for article in soup.find_all('article'):
     article_class = article.get('class') or []
     if 'contradiction' in article_class or 'key' in article_class:
         for p in article.find_all('p'):
-            # Remove any previous text-align
+            # Remove any previous text-align or text-justify
             style = p.get('style', '')
             style = re.sub(r'text-align\s*:\s*[^;]+;?', '', style)
             style = re.sub(r'text-justify\s*:\s*[^;]+;?', '', style)
-            p['style'] = (style + ' ' + JUSTIFY_P_STYLE).strip()
+            # Always add justification
+            p['style'] = (style + '; text-align: justify; text-justify: inter-word;').strip()
 
 # Justify paragraphs in the introduction section
 intro_section = soup.find(id='introduction')
